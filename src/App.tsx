@@ -51,7 +51,7 @@ import {InputArea} from './Components/InputArea';
     setList([...list, item]);
   }
   return (
-    <C.AppContainer>
+    <C.Container>
       <C.Header>
         <C.HeaderText>Sistema Financeiro</C.HeaderText>
       </C.Header>
@@ -67,7 +67,8 @@ import {InputArea} from './Components/InputArea';
         <TableArea list={filteredList} />
 
           </C.Body>
-    </C.AppContainer>
+    </C.Container>
+
 
   );
 }
